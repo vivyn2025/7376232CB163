@@ -1,0 +1,36 @@
+
+{"level":"info","message":"priority inbox server started on port 3000","timestamp":"2026-05-08T09:15:33.285Z"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:15:34.756Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8115"}
+{"contentLength":"57","level":"info","message":"request finished","method":"GET","responseTimeMs":4.164,"status":200,"timestamp":"2026-05-08T09:15:34.766Z","type":"response","url":"/health"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:15:34.857Z","type":"request","url":"/notifications/priority?limit=10","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8115"}
+{"attempt":1,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T09:15:34.859Z"}
+{"attempt":1,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T09:15:35.003Z","tookMs":144}
+{"attempt":2,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T09:15:35.357Z"}
+{"attempt":2,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T09:15:35.419Z","tookMs":63}
+{"attempt":3,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T09:15:36.130Z"}
+{"attempt":3,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T09:15:36.202Z","tookMs":73}
+{"level":"error","message":"request failed Notification API unavailable: status 401","method":"GET","path":"/notifications/priority?limit=10","stack":"Error: Notification API unavailable: status 401\n    at fetchNotifications (C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\services\\notificationService.js:71:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getPriorityInbox (C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\services\\notificationService.js:79:19)\n    at async C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\index.js:27:19","timestamp":"2026-05-08T09:15:36.203Z"}
+{"contentLength":"51","level":"error","message":"request finished","method":"GET","responseTimeMs":1346.053,"status":502,"timestamp":"2026-05-08T09:15:36.205Z","type":"response","url":"/notifications/priority?limit=10"}
+{"level":"info","message":"priority inbox server started on port 3000","timestamp":"2026-05-08T09:22:43.791Z"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:22:45.255Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8115"}
+{"contentLength":"57","level":"info","message":"request finished","method":"GET","responseTimeMs":4.099,"status":200,"timestamp":"2026-05-08T09:22:45.264Z","type":"response","url":"/health"}
+{"level":"info","message":"priority inbox server started on port 3000","timestamp":"2026-05-08T09:29:31.019Z"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:29:32.339Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8115"}
+{"contentLength":"57","level":"info","message":"request finished","method":"GET","responseTimeMs":4.596,"status":200,"timestamp":"2026-05-08T09:29:32.349Z","type":"response","url":"/health"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:32:53.955Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+{"contentLength":"57","level":"info","message":"request finished","method":"GET","responseTimeMs":0.83,"status":200,"timestamp":"2026-05-08T09:32:53.959Z","type":"response","url":"/health"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:32:55.949Z","type":"request","url":"/favicon.ico","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+{"contentLength":"27","level":"warn","message":"request finished","method":"GET","responseTimeMs":1.115,"status":404,"timestamp":"2026-05-08T09:32:55.953Z","type":"response","url":"/favicon.ico"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:33:01.550Z","type":"request","url":"/notifications/priority","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+{"attempt":1,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T09:33:01.552Z"}
+{"attempt":1,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T09:33:01.705Z","tookMs":153}
+{"attempt":2,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T09:33:02.061Z"}
+{"attempt":2,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T09:33:02.134Z","tookMs":73}
+{"attempt":3,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T09:33:02.842Z"}
+{"attempt":3,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T09:33:02.918Z","tookMs":76}
+{"level":"error","message":"request failed Notification API unavailable: status 401","method":"GET","path":"/notifications/priority","stack":"Error: Notification API unavailable: status 401\n    at fetchNotifications (C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\services\\notificationService.js:71:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getPriorityInbox (C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\services\\notificationService.js:79:19)\n    at async C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\index.js:27:19","timestamp":"2026-05-08T09:33:02.918Z"}
+{"contentLength":"51","level":"error","message":"request finished","method":"GET","responseTimeMs":1367.803,"status":502,"timestamp":"2026-05-08T09:33:02.920Z","type":"response","url":"/notifications/priority"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:38:27.314Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+{"level":"info","message":"request finished","method":"GET","responseTimeMs":1.357,"status":304,"timestamp":"2026-05-08T09:38:27.317Z","type":"response","url":"/health"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:38:40.738Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+{"level":"info","message":"request finished","method":"GET","responseTimeMs":1.354,"status":304,"timestamp":"2026-05-08T09:38:40.743Z","type":"response","url":"/health"}

@@ -1,0 +1,27 @@
+{
+  "name": "campus-priority-inbox",
+  "version": "1.0.0",
+  "description": "Stage 1 backend for ranking unread campus notifications by importance and recency.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "notifications",
+    "priority-inbox",
+    "express"
+  ],
+  "author": "student-developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
