@@ -34,3 +34,12 @@
 {"level":"info","message":"request finished","method":"GET","responseTimeMs":1.357,"status":304,"timestamp":"2026-05-08T09:38:27.317Z","type":"response","url":"/health"}
 {"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T09:38:40.738Z","type":"request","url":"/health","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
 {"level":"info","message":"request finished","method":"GET","responseTimeMs":1.354,"status":304,"timestamp":"2026-05-08T09:38:40.743Z","type":"response","url":"/health"}
+{"ip":"::1","level":"info","message":"incoming request","method":"GET","timestamp":"2026-05-08T10:04:14.290Z","type":"request","url":"/notifications/priority","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}
+{"attempt":1,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T10:04:14.291Z"}
+{"attempt":1,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T10:04:14.365Z","tookMs":74}
+{"attempt":2,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T10:04:14.724Z"}
+{"attempt":2,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T10:04:14.788Z","tookMs":64}
+{"attempt":3,"level":"info","message":"fetching notifications from source api","timeoutMs":6000,"timestamp":"2026-05-08T10:04:15.490Z"}
+{"attempt":3,"level":"warn","message":"notification api request failed","reason":"status 401","timestamp":"2026-05-08T10:04:15.546Z","tookMs":56}
+{"level":"error","message":"request failed Notification API unavailable: status 401","method":"GET","path":"/notifications/priority","stack":"Error: Notification API unavailable: status 401\n    at fetchNotifications (C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\services\\notificationService.js:71:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async getPriorityInbox (C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\services\\notificationService.js:79:19)\n    at async C:\\Users\\rrviv\\OneDrive\\Desktop\\AFF\\index.js:27:19","timestamp":"2026-05-08T10:04:15.547Z"}
+{"contentLength":"51","level":"error","message":"request finished","method":"GET","responseTimeMs":1257.967,"status":502,"timestamp":"2026-05-08T10:04:15.550Z","type":"response","url":"/notifications/priority"}
